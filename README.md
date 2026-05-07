@@ -91,10 +91,10 @@ Make an implementation plan for a simple Quiz/Trivia Game that is an interactive
 
 Ensure the application looks modern and that data is persistent accross various sessions.
 ```
----
+
 ### Assistant
 
----
+
 ## Plan: Persistent Modern Quiz/Trivia Game
 
 Design and implement a modern, interactive quiz/trivia application with persistent data storage for scores and user history.
@@ -168,8 +168,8 @@ Let me know your preferred language/framework and any extra features you want!
 > *Response time: 16.57 seconds*
 > <br>*Model: gpt-4.1*
 
----
 
+---
 <a name="request-3"></a>
 ## Request 3 [^](#table-of-contents) [<](#request-2) [>](#request-4)
 
@@ -179,13 +179,11 @@ I am thinking python.
 Make this into a md file
 ```
 
----
+
 ### Assistant
 
----
 The implementation plan for your Python-based persistent modern Quiz/Trivia Game has been saved as a markdown file. Here’s the plan in markdown format:
 
----
 
 # Implementation Plan: Persistent Modern Quiz/Trivia Game (Python)
 
@@ -255,7 +253,6 @@ Design and implement a modern, interactive quiz/trivia application in Python wit
 2. Is cloud sync or export/import of stats needed?
 3. Should questions support images or multimedia?
 
----
 
 Let me know if you want to adjust any part of the plan or need help with the next steps!
 
@@ -272,7 +269,7 @@ Let me know if you want to adjust any part of the plan or need help with the nex
 #createFile the plan as is into an untitled file (`untitled:plan-${camelCaseName}.prompt.md` without frontmatter) for further refinement.
 ```
 
----
+
 ### Assistant
 
 <details>
@@ -376,10 +373,8 @@ The plan has been created in the untitled file plan-persistentModernQuizTriviaGa
 Generate a set of questions and answers ranging in difficulty between easy, medium and hard. and ensure there are multiple questions + answers for each.
 ```
 
----
 ### Assistant
 
----
 
 <details>
   <summary>🛠️ File Edit: questions.json</summary>
@@ -688,10 +683,9 @@ This will launch your modern, persistent Quiz/Trivia Game with all planned featu
 Improve the UI and make the application feel modern. Allow the user to select the difficulty from the different options of (easy, medium and hard).
 ```
 
----
+
 ### Assistant
 
----
 
 <details>
   <summary>🛠️ File Edit: gui.py</summary>
@@ -915,10 +909,9 @@ IndentationError: unexpected indent
 (.venv) PS D:\1st Semester\Capita Selecta - WHZV401\A9\quiz_app>
 ```
 
----
+
 ### Assistant
 
----
 The error is caused by incorrect indentation in your
  file. Specifically, the lines:
 
@@ -1121,10 +1114,8 @@ You can now run the application without encountering the IndentationError. Let m
 Make the GUI not have multiple submit buttons for the QUIZ. Make the size of the quiz 150% times larger. Ensure there are no repeating elements in the GUI
 ```
 
----
 ### Assistant
 
----
 Your GUI currently creates multiple submit buttons and score/stat labels because these widgets are being created inside the options loop in
 . Also, the window size is still at the default.
 
@@ -1338,10 +1329,9 @@ You can now run the application to see the improved layout and functionality. Le
 Add 30 more questions for each difficulty
 ```
 
----
+
 ### Assistant
 
----
 To proceed, I will generate 30 additional questions for each difficulty (easy, medium, hard) and add them to your
  file, ensuring a diverse and well-structured quiz pool.
 
