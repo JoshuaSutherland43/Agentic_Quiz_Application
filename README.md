@@ -25,12 +25,12 @@
 ## Request 1 [^](#table-of-contents) < [>](#request-2)
 
 ### Participant
-
+```
 Create a plan for a Quiz GUI Game.
-
+```
 ### Assistant
 
-
+```
 ## Plan: Quiz GUI Game
 
 Design and implement a graphical quiz game where users answer questions through a GUI, receive feedback, and track their score.
@@ -75,7 +75,7 @@ Let me know your preferences for language/framework and any specific features yo
 
 > *Response time: 22.73 seconds*
 > <br>*Model: gpt-4.1*
-
+```
 ---
 
 <a name="request-2"></a>
